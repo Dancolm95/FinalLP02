@@ -1,0 +1,12 @@
+# Ignore the docs and prompts directories
+docs/
+prompts/
+
+# Ignore the .env file
+.env
+
+# Ignore the .vscode directory
+.vscode/
+
+# ignore all logs
+logs/
