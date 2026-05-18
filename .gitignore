@@ -10,3 +10,6 @@ prompts/
 
 # ignore all logs
 logs/
+
+#
+target/
