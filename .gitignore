@@ -1,15 +1,31 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+target/
+*.class
+
+# Docker
+mysql_data/
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Ignore the docs and prompts directories
 docs/
 prompts/
-
-# Ignore the .env file
-.env
-
-# Ignore the .vscode directory
-.vscode/
-
-# ignore all logs
-logs/
-
-#
-target/
